@@ -1,0 +1,42 @@
+name: Cold Email Writing
+id: com.xamtastic.marketingskills.cold-email
+uuid: 3edcc6ad-b7d8-441c-bba8-ba8860339e1b
+version: 1.0.0
+description: >
+  Writes B2B cold outreach emails and multi-touch follow-up sequences that get
+  replies — subject lines, opening lines, personalization, and CTAs grounded in
+  proven frameworks and benchmarks. Upgraded from a skill originally authored
+  by @coreyhaines31 on GitHub.
+author: Xamtastic
+authorEmail: anthony@harrisonofthenorth.com
+entry: SKILL.md
+system_protocol_version: "1.0.0"
+license: MIT
+minimum_runtime: "1.0.0"
+capabilities:
+  - filesystem.read
+permissions:
+  filesystem.read:
+    paths:
+      - ".agents/product-marketing.md"
+      - ".claude/product-marketing.md"
+      - "product-marketing-context.md"
+homepage: https://openaiskillpackage.com/
+repository: https://github.com/Xamtastic/AISKILL-coreyhaines31_marketingskills-COLD-EMAIL
+tags:
+  - cold-email
+  - outreach
+  - sales
+  - sdr
+  - copywriting
+  - marketing
+type: instructional
+origin: converted
+source_owner: coreyhaines31
+source_repo: marketingskills
+source_path: skills/cold-email
+converted_at: "2026-07-10"
+changelog:
+  - version: 1.0.0
+    changes:
+      - Initial conversion from coreyhaines31/marketingskills (Agent Skills format) to .aiskill v2.2.0
