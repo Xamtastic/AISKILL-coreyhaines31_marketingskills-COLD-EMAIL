@@ -1,12 +1,30 @@
 name: Cold Email Writing
 id: com.xamtastic.marketingskills.cold-email
 uuid: 3edcc6ad-b7d8-441c-bba8-ba8860339e1b
-version: 1.0.0
+version: 1.0.1
 description: >
   Writes B2B cold outreach emails and multi-touch follow-up sequences that get
   replies — subject lines, opening lines, personalization, and CTAs grounded in
   proven frameworks and benchmarks. Upgraded from a skill originally authored
   by @coreyhaines31 on GitHub.
+synopsis: |
+  Writes B2B cold outreach emails and multi-touch follow-up sequences
+  designed to get replies -- subject lines, opening lines,
+  personalization, and CTAs grounded in proven frameworks and benchmarks,
+  not generic AI-written boilerplate. Reads optional business context
+  automatically from a product-marketing.md file in the working
+  directory, if one exists, before writing begins.
+
+  Reach for this whenever an SDR, founder, or marketer needs a cold email
+  -- or a full multi-touch sequence -- written for a specific prospect
+  and offer, and wants it grounded in tested framework and benchmark data
+  rather than a generic pitch. Pure-instructional: no scripts run,
+  nothing to install.
+
+  Converted from coreyhaines31/marketingskills with its original MIT
+  license preserved unchanged, and carries the same SYSTEM.md
+  external-registry verification as every other package in this
+  ecosystem.
 author: Xamtastic
 authorEmail: anthony@harrisonofthenorth.com
 entry: SKILL.md
@@ -37,6 +55,10 @@ source_repo: marketingskills
 source_path: skills/cold-email
 converted_at: "2026-07-10"
 changelog:
+  - version: 1.0.1
+    changes:
+      - "BREAKING (.aiskill spec v2.3.0): new required manifest field synopsis — a multi-paragraph, hand-authored expansion of description, feeding both README.md's opening and CARD.md's rendering"
+      - "Unified README.md: repo-root and skill/README.md had diverged since conversion (different templates); merged into one byte-identical README carrying the best content from both (Inputs/Output sections from the skill copy, Development Workflow/License/Contact from the repo copy)"
   - version: 1.0.0
     changes:
       - Initial conversion from coreyhaines31/marketingskills (Agent Skills format) to .aiskill v2.2.0

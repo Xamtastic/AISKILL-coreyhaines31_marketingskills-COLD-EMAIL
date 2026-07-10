@@ -2,9 +2,15 @@
 
 **Cold Email Writing** — Writes B2B cold outreach emails and multi-touch follow-up sequences that get replies — subject lines, opening lines, personalization, and CTAs grounded in proven frameworks and benchmarks.
 
+Writes B2B cold outreach emails and multi-touch follow-up sequences designed to get replies — subject lines, opening lines, personalization, and CTAs grounded in proven frameworks and benchmarks, not generic AI-written boilerplate. Reads optional business context automatically from a `product-marketing.md` file in the working directory, if one exists, before writing begins.
+
+Reach for this whenever an SDR, founder, or marketer needs a cold email — or a full multi-touch sequence — written for a specific prospect and offer, and wants it grounded in tested framework and benchmark data rather than a generic pitch. Pure-instructional: no scripts run, nothing to install.
+
+Converted from coreyhaines31/marketingskills with its original MIT license preserved unchanged, and carries the same SYSTEM.md external-registry verification as every other package in this ecosystem.
+
 | | |
 |---|---|
-| Version | `1.0.0` |
+| Version | `1.0.1` |
 | License | `MIT` |
 | Author | Xamtastic |
 | Homepage | https://openaiskillpackage.com/ |
@@ -26,24 +32,36 @@ None — this is a pure-instructional skill. No scripts, no runtime dependencies
 
 ## Quick Start
 
-1. Download `COLD-EMAIL-1.0.0.aiskill` from the [Releases](https://github.com/Xamtastic/AISKILL-coreyhaines31_marketingskills-COLD-EMAIL/releases) page
-2. Give your AI agent the following prompt:
+1. Download `COLD-EMAIL-1.0.1.aiskill` from the [Releases](https://github.com/Xamtastic/AISKILL-coreyhaines31_marketingskills-COLD-EMAIL/releases) page
+2. Give your AI agent the skill package and describe who you're writing to and what you're offering, e.g.:
 
 ```
-Using the Skill Package at /path/to/COLD-EMAIL-1.0.0.aiskill,
-[describe what you want the skill to do]
+Using the Skill Package at /path/to/COLD-EMAIL-1.0.1.aiskill,
+write a cold email to VP Eng at a Series B startup about our observability tool.
 ```
+
+---
+
+## Inputs
+
+No structured input file. If `.agents/product-marketing.md` (or `.claude/product-marketing.md`, or the legacy `product-marketing-context.md`) exists in the working directory, it's read automatically for business context before writing begins.
+
+---
+
+## Output
+
+A cold email (or sequence) with subject line, opening, body, and CTA — plus, when requested, a multi-touch follow-up sequence.
 
 ---
 
 ## Skill Archive Contents
 
 ```
-COLD-EMAIL-1.0.0.aiskill  (ZIP archive)
+COLD-EMAIL-1.0.1.aiskill  (ZIP archive)
 ├── manifest.yaml          # identity & metadata
 ├── SYSTEM.md              # verification protocol (invariant)
 ├── SKILL.md               # AI entry point — writing procedure
-├── README.md              # this file (skill-level)
+├── README.md              # this file — byte-identical to the repo-root copy
 ├── CHANGELOG.md           # version history
 ├── LICENSE.txt            # MIT (original author's license, preserved)
 ├── checksums.yaml         # SHA-256 integrity hashes

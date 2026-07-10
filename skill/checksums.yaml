@@ -1,9 +1,9 @@
 algorithm: sha256
 files:
-  CARD.md: 7722c728538029e9973cd0ae0e569f286c7b1674fd386955d88de5b41dcddedf
-  CHANGELOG.md: a46b98bf2b8e781288afb8e88b545882a1484be79b7dcaacb1dffbb521444354
+  CARD.md: e558dcc750f2e316b3bbfccb9e4a7be52cecbf0b67c743225d01453e7e53e58a
+  CHANGELOG.md: 91c5ce8bbafdb95ed1bbd611df9ff44e851f52816ce9301f33c9a5064df94fbb
   LICENSE.txt: b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591
-  README.md: a0414579ff82dd37e1fcd4aa8a7b198d9d90aa9499bfc5dd385a5f83cdd3cfe9
+  README.md: 0d0cf1d2c19a793a38e0b912c1646f6cdfbae2151df8d931ca9aabaa211d8cc1
   SKILL.md: 76488f2d474a4b08e9855f860bbbd2b0fee5b66a1e9fb4fdd6c2b99d82d94d06
   SYSTEM.md: f7d9c4a38c55571a670c4d06c33a3a1c85e5a4f1dbe5536e375d3b63101d6a61
   assets/references/benchmarks.md: 3dc1d38a2d1f4fbb2706be7ca3d40156b66a3d7078c183a930ff373c3bb04c09
@@ -11,4 +11,4 @@ files:
   assets/references/frameworks.md: b29fb89922f96ae1c6911675a7e173a8f7c6a40999c9a18b14ac7f357b5f5a03
   assets/references/personalization.md: 08f18652938e14143402786fbdb8e1a6269650bb5eef9106898f1cdf31e47e36
   assets/references/subject-lines.md: f71f31b1151d972bb19ff03791ffb9d24941a8ccea8b913e5a5c7aca439b45ce
-  manifest.yaml: 8e8d55ce4c8ce619a4174aa04c438c2edbb932a24c08d53c89de7d9df9ee9ec2
+  manifest.yaml: 40750967c182d30d37a5128140ce350cedcbf518eac56ca84715d34968116d73

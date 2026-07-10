@@ -2,7 +2,25 @@
 
 Writes B2B cold outreach emails and multi-touch follow-up sequences that get replies — subject lines, opening lines, personalization, and CTAs grounded in proven frameworks and benchmarks. Upgraded from a skill originally authored by @coreyhaines31 on GitHub.
 
-**Version:** 1.0.0
+Writes B2B cold outreach emails and multi-touch follow-up sequences
+designed to get replies -- subject lines, opening lines,
+personalization, and CTAs grounded in proven frameworks and benchmarks,
+not generic AI-written boilerplate. Reads optional business context
+automatically from a product-marketing.md file in the working
+directory, if one exists, before writing begins.
+
+Reach for this whenever an SDR, founder, or marketer needs a cold email
+-- or a full multi-touch sequence -- written for a specific prospect
+and offer, and wants it grounded in tested framework and benchmark data
+rather than a generic pitch. Pure-instructional: no scripts run,
+nothing to install.
+
+Converted from coreyhaines31/marketingskills with its original MIT
+license preserved unchanged, and carries the same SYSTEM.md
+external-registry verification as every other package in this
+ecosystem.
+
+**Version:** 1.0.1
 **Author:** Xamtastic
 **License:** MIT
 **Package ID:** `com.xamtastic.marketingskills.cold-email`
